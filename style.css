@@ -1,0 +1,40 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.main {
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  color: #f2f2f2;
+  width: 400px;
+  height: 300px;
+
+  left: 70px;
+  top: 70px;
+  z-index: 1;
+}
+
+.h1 {
+  margin-bottom: 20px;
+}
+
+.blue-svg {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.elephant {
+  position: absolute;
+  width: 500px;
+  top: 50px;
+  right: 300px;
+}
